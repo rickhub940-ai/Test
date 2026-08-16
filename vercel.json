@@ -2,13 +2,7 @@
   "version": 2,
   "functions": {
     "api/obfuscate.js": {
-      "maxDuration": 30
+      "runtime": "nodejs22.x"
     }
-  },
-  "routes": [
-    {
-      "src": "/api/obfuscate",
-      "dest": "/api/obfuscate.js"
-    }
-  ]
+  }
 }
